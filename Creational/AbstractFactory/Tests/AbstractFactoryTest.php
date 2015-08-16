@@ -25,6 +25,7 @@ class AbstractFactoryTest extends \PHPUnit_Framework_TestCase
      * wants and render how he wants.
      *
      * @dataProvider getFactories
+     * @param AbstractFactory $factory
      */
     public function testComponentCreation(AbstractFactory $factory)
     {

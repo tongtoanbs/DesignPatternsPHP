@@ -24,7 +24,7 @@ abstract class AbstractFactory
      *
      * @param string $content
      *
-     * @return Text
+     * @return AbstractText
      */
     abstract public function createText($content);
 
@@ -34,7 +34,7 @@ abstract class AbstractFactory
      * @param string $path
      * @param string $name
      *
-     * @return Picture
+     * @return AbstractPicture
      */
     abstract public function createPicture($path, $name = '');
 }

@@ -2,14 +2,14 @@
 
 namespace DesignPatterns\Creational\AbstractFactory\Html;
 
-use DesignPatterns\Creational\AbstractFactory\Picture as BasePicture;
+use DesignPatterns\Creational\AbstractFactory\AbstractPicture;
 
 /**
  * Class Picture
  *
  * Picture is a concrete image for HTML rendering
  */
-class Picture extends BasePicture
+class Picture extends AbstractPicture
 {
     /**
      * some crude rendering from HTML output

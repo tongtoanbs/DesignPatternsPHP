@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Creational\AbstractFactory\Json;
 
-use DesignPatterns\Creational\AbstractFactory\Picture as BasePicture;
+use DesignPatterns\Creational\AbstractFactory\AbstractPicture as BasePicture;
 
 /**
  * Class Picture

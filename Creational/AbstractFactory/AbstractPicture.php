@@ -5,7 +5,7 @@ namespace DesignPatterns\Creational\AbstractFactory;
 /**
  * Class Picture
  */
-abstract class Picture implements MediaInterface
+abstract class AbstractPicture implements MediaInterface
 {
 
     /**

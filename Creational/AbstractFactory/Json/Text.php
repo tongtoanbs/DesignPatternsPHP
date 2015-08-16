@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Creational\AbstractFactory\Json;
 
-use DesignPatterns\Creational\AbstractFactory\Text as BaseText;
+use DesignPatterns\Creational\AbstractFactory\AbstractText as BaseText;
 
 /**
  * Class Text
